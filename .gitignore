@@ -1,0 +1,38 @@
+# Track only reviewed workspace areas; keep personal root files local.
+/*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/memory/
+!/chat-studio/
+!/projects/
+# Runtime, credentials, local tools and private conversation state
+**/.git/
+**/.maru/
+**/.genteam/
+**/.tools/
+**/node_modules/
+**/__pycache__/
+**/.env
+**/.env.*
+**/*credentials*
+**/*token*
+*.log
+*.pid
+*.bak
+*.lnk
+*.url
+*.tar.gz
+*.mp4
+*.png
+*.jpg
+*.pdf
+*.docx
+# Publishing checkouts maintain their own Git data.
+/projects/sites-workspace/work/taste-pieces/
+/projects/sites-workspace/work/studio-note/
+/projects/sites-workspace/work/day-focus/
+
+# Generated shell settings and local UI copies
+desktop.ini
+* - 복사본.html
