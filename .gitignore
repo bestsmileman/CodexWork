@@ -36,3 +36,12 @@
 # Generated shell settings and local UI copies
 desktop.ini
 * - 복사본.html
+
+# Maru project assets
+!/maru/
+!/maru/**/
+!/maru/**/*.mp4
+!/maru/**/*.png
+!/maru/**/*.jpg
+!/maru/**/*.pdf
+!/maru/**/*.docx
