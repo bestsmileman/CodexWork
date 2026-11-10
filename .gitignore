@@ -5,6 +5,12 @@
 !/AGENTS.md
 !/memory/
 !/chat-studio/
+!/docs/
+!/docs/**
+!/meetings/
+!/meetings/**
+!/assets/
+!/assets/**
 !/projects/
 # Runtime, credentials, local tools and private conversation state
 **/.git/
